@@ -1,0 +1,92 @@
+body.rv-bubble {
+	position: relative;
+	height: 100%;
+}
+
+.rv-main-container {
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: inherit;
+	top: 0;
+	bottom:0;
+	z-index: -1;
+}
+
+.rv-container {
+    position: absolute;
+    z-index: 0;
+    -webkit-backface-visibility: hidden;
+}
+
+.rv-container-01 {
+    top: 0.5%;
+    left: 5%;
+}
+.rvfont {
+	opacity: 0.5;
+}
+.rvimg {
+	opacity: 0.5;
+}
+
+.rvbubble {
+	top: 0; 
+	left: 0; 
+	width: 10px;
+	height: 10px; 
+	margin: 0; 
+	padding: 0; 
+	border-radius: 50%;
+	background: #a03232; 
+	pointer-events: none; 
+	opacity: 0.5;
+}
+
+.rvsquare {
+	top: 0; 
+	left: 0; 
+	width: 10px;
+	height: 10px; 
+	margin: 0; 
+	padding: 0;
+	background: #a03232; 
+	pointer-events: none; 
+	opacity: 0.5;
+}
+
+.particles { 
+	width: 100%; 
+	height: 100%; 
+	margin: 0; 
+	padding: 0; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+	list-style: none; 
+	overflow: hidden; 
+}
+
+.particles li { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 10px;
+	height: 10px; 
+	margin: 0; 
+	padding: 0; 
+	
+	background: #a03232; 
+	pointer-events: none; 
+}
+
+.particles.bubble li {
+	border-radius: 50%;
+}
+
+.particles.eggs li {
+  	-webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  	border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+}
+
